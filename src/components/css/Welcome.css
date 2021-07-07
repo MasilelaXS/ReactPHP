@@ -1,0 +1,72 @@
+.Container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0A0F32;
+    display: flex;
+    flex-direction: column;
+}
+
+.Container-fluid img {
+    width: 100%;
+}
+
+.Container {
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+    margin: 5% auto 5% auto;
+    background-color: #14193A;
+}
+
+.Container h4 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #E9025F;
+}
+
+.Container p {
+    font-weight: lighter;
+    font-size: 10pt;
+    color: #fff;
+}
+
+
+.Container .btn {
+    outline: none;
+    border: none;
+    background-color: #E9025F;
+    padding: 10px;
+    margin: 5% auto 2% auto;
+    width: 100%;
+    color: #fff;
+    box-shadow: #242424 0px 0px 4px;
+    border-radius: 50px;
+}
+
+.Container .btn:active {
+    background-color: #ce0455;
+    box-shadow: #242424 4px 0px 4px;
+    
+}
+
+.Container-fluid .Navbar {
+    background-color: #E9025F;
+    height: 10vh;
+    box-shadow: #242424 0px 0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+}
+
+.Container-fluid .Navbar h5 {
+    font-weight: lighter;
+    font-size: 14pt;
+    color: #fff;
+}
+
+.Container-fluid .Navbar .NavIcon {
+    font-weight: lighter;
+    font-size: 14pt;
+    color: #fff;
+}
